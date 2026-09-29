@@ -1,0 +1,2 @@
+import AppShell from '@/components/AppShell';
+export default function SettingsPage(){return <AppShell><p className="font-mono text-xs text-accent-blue">SETTINGS</p><h1 className="mt-2 text-3xl font-semibold">Workspace settings</h1><section className="mt-8 glass-panel rounded-lg p-6"><h2 className="text-sm font-semibold">Connection</h2><p className="mt-2 text-sm leading-relaxed text-zinc-400">AION connects to the configured backend service. Provider credentials remain server-side and are never available in this workspace.</p></section></AppShell>}
